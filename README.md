@@ -14,7 +14,7 @@ You should end up with a folder that has CSXS, jsx and index.html directly insid
 
 Premiere only loads signed extensions by default, so you need to turn on debug mode once.
 
-Windows
+<H1>Windows</H1>
 
 Press Win + R, type regedit and press Enter.
 Go to HKEY_CURRENT_USER\Software\Adobe\.
@@ -23,7 +23,7 @@ Inside it, right-click an empty area, choose New > String Value, and name it Pla
 Double-click it and set the value to 1.
 Repeat steps 3 to 5 for CSXS.11.
 
-macOS
+<H1>macOS</H1>
 
 Open Terminal and run:
 
@@ -64,7 +64,7 @@ Alt + click (Opt on Mac), or nothing selected	A layer at the playhead
 
 Short layers (cuts and playhead) use the Default length setting. With an odd number of frames, the extra frame goes after the cut.
 
-Settings
+<H1>Settings</H1>
 
 Open Settings in the panel to change:
 
@@ -86,7 +86,7 @@ Check that CSXS is directly inside the folder you copied, not inside another fol
 
 "No free track" Add a video track above your clips and try again.
 
-Known limitations
+<H1>Known limitations</H1>
 Matte colors are shared. All placed mattes come from one source, so recoloring one recolors them all. For a second color, duplicate the matte in the bin, recolor the copy and drag it in manually.
 Saved presets aren't supported. Only built-in effects can be auto-applied.
 No built-in keyboard shortcuts. Panels can't register their own. Use a macro tool such as AutoHotkey (Windows) or Keyboard Maestro (macOS) to click the buttons.
